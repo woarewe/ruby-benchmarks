@@ -25,5 +25,11 @@ Benchmark.ips do |x|
     end
   end
 
+  x.report('just Array#sum') do
+    ATTEMPTS_COUNT.times do
+      NUMBERS.sum
+    end
+  end
+
   x.compare!
 end
