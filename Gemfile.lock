@@ -10,4 +10,4 @@ DEPENDENCIES
   benchmark-ips (~> 2.7.2)
 
 BUNDLED WITH
-   1.17.3
+   2.0.2
